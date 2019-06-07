@@ -1,0 +1,10 @@
+html, body {
+    background-color: black;
+}
+
+.console {
+    color: lawngreen;
+    display: inline-block;
+    line-height: 7px;
+    height: 7px;
+}
