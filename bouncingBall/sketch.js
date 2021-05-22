@@ -2,10 +2,11 @@ function setup() {
     var cnv = createCanvas(windowWidth, windowHeight);
     cnv.style('display', 'block');
     c = new Circle(width/2, height/2, 50);
-    textSize(100);
+    textSize(width/4);
     textAlign(CENTER, CENTER);
 }
 function draw() {
+    textSize(width / 50);
     resizeCanvas(windowWidth, windowHeight);
     background(0,10,50);
 
